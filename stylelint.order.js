@@ -67,42 +67,6 @@ const boxmodel = {
     'padding-inline',
     'padding-inline-start',
     'padding-inline-end',
-    'overflow',
-    'overflow-y',
-    'overflow-x',
-  ],
-};
-
-const typography = {
-  properties: [
-    'font',
-    'font-style',
-    'font-weight',
-    'font-size',
-    'font-family',
-    'line-height',
-    'letter-spacing',
-    'white-space',
-    'text-align',
-    'text-transform',
-    'text-decoration',
-    'text-indent',
-    'text-overflow',
-    'vertical-align',
-    'word-wrap',
-    'word-break',
-    'word-spacing',
-    'overflow-wrap',
-    'color',
-  ],
-};
-
-const visual = {
-  properties: [
-    'list-style',
-    'list-style-position',
-    'list-style-type',
-    'list-style-image',
     'border',
     'border-width',
     'border-style',
@@ -145,6 +109,42 @@ const visual = {
     'outline-style',
     'outline-color',
     'outline-offset',
+    'overflow',
+    'overflow-y',
+    'overflow-x',
+  ],
+};
+
+const typography = {
+  properties: [
+    'font',
+    'font-style',
+    'font-weight',
+    'font-size',
+    'font-family',
+    'line-height',
+    'letter-spacing',
+    'white-space',
+    'text-align',
+    'text-transform',
+    'text-decoration',
+    'text-indent',
+    'text-overflow',
+    'vertical-align',
+    'word-wrap',
+    'word-break',
+    'word-spacing',
+    'overflow-wrap',
+    'color',
+  ],
+};
+
+const visual = {
+  properties: [
+    'list-style',
+    'list-style-position',
+    'list-style-type',
+    'list-style-image',
     'background',
     'background-color',
     'background-image',
