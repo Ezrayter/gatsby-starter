@@ -1,17 +1,12 @@
 {
-  "name": "gatsby-starter-hello-world",
-  "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
-  "version": "0.1.0",
-  "license": "0BSD",
+  "name": "ezrayter-gatsby",
   "scripts": {
-    "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "build": "gatsby build",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "stylelint": "npx stylelint \"**/*.scss\""
   },
   "dependencies": {
     "gatsby": "^2.24.67",
@@ -19,13 +14,14 @@
     "react-dom": "^16.12.0"
   },
   "devDependencies": {
-    "prettier": "2.1.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "autoprefixer": "^10.0.1",
+    "gatsby-plugin-postcss": "^3.0.3",
+    "gatsby-plugin-sass": "^2.3.17",
+    "node-sass": "^4.14.1",
+    "postcss": "^8.1.1",
+    "postcss-csso": "^5.0.0",
+    "prettier": "2.1.2",
+    "stylelint": "^13.7.2",
+    "stylelint-config-sass-guidelines": "^7.1.0"
   }
 }
