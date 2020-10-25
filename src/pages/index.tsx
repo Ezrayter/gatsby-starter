@@ -1,7 +1,5 @@
 import React from 'react';
 
-const Home = () => {
-  return <></>;
-};
+import PageHome from 'containers/page-home';
 
-export default Home;
+export default () => <PageHome />;

@@ -1,12 +1,13 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.com/docs/gatsby-config/
- */
-
 module.exports = {
   plugins: [
-    `gatsby-plugin-sass`,
+    'gatsby-plugin-sass',
+    {
+      resolve: 'gatsby-plugin-tsconfig-paths',
+      options: {
+        configFile: `${__dirname}/tsconfig.json`,
+        extensions: ['.js', '.jsx', '.ts', '.tsx', '.css', '.scss', '.json'],
+      },
+    },
     {
       resolve: `gatsby-plugin-postcss`,
       options: {

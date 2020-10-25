@@ -251,5 +251,6 @@ module.exports = {
   rules: {
     'order/order': ruleOrder,
     'order/properties-order': propertiesOrder,
+    'order/properties-alphabetical-order': null,
   },
 };

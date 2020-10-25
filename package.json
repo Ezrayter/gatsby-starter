@@ -16,7 +16,8 @@
   "devDependencies": {
     "autoprefixer": "^10.0.1",
     "gatsby-plugin-postcss": "^3.0.3",
-    "gatsby-plugin-sass": "^2.3.17",
+    "gatsby-plugin-sass": "^2.3.21",
+    "gatsby-plugin-tsconfig-paths": "^1.0.2",
     "node-sass": "^4.14.1",
     "postcss": "^8.1.1",
     "postcss-csso": "^5.0.0",
