@@ -20,6 +20,7 @@ const positioning = {
 
 const boxmodel = {
   properties: [
+    'box-sizing',
     'display',
     'flex-flow',
     'flex-direction',
@@ -38,7 +39,6 @@ const boxmodel = {
     'row-gap',
     'float',
     'clear',
-    'box-sizing',
     'width',
     'min-width',
     'max-width',
@@ -115,13 +115,24 @@ const boxmodel = {
   ],
 };
 
+const list = {
+  properties: [
+    'list-style',
+    'list-style-position',
+    'list-style-type',
+    'list-style-image',
+  ],
+};
+
 const typography = {
   properties: [
     'font',
-    'font-style',
-    'font-weight',
-    'font-size',
     'font-family',
+    'font-weight',
+    'font-style',
+    'font-size',
+    'font-display',
+    'src',
     'line-height',
     'letter-spacing',
     'white-space',
@@ -141,10 +152,6 @@ const typography = {
 
 const visual = {
   properties: [
-    'list-style',
-    'list-style-position',
-    'list-style-type',
-    'list-style-image',
     'background',
     'background-color',
     'background-image',
@@ -157,6 +164,7 @@ const visual = {
     'background-clip',
     'background-origin',
     'box-shadow',
+    'opacity',
     'visibility',
     'cursor',
   ],
@@ -169,7 +177,6 @@ const compositing = {
     'transform-origin',
     'transform-style',
     'backface-visibility',
-    'opacity',
     'filter',
     'perspective',
     'perspective-origin',
@@ -200,17 +207,17 @@ const misc = {
     'appearance',
     'clip',
     'clip-path',
+    'fill',
+    'fill-rule',
+    'clip-rule',
+    'stroke',
+    'stroke-width',
     'counter-reset',
     'counter-increment',
     'resize',
     'quotes',
     'user-select',
     'pointer-events',
-    'fill',
-    'fill-rule',
-    'clip-rule',
-    'stroke',
-    'stroke-width',
   ],
 };
 
@@ -218,6 +225,7 @@ const propertiesOrder = [
   special,
   positioning,
   boxmodel,
+  list,
   typography,
   visual,
   animation,
