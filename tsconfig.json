@@ -6,6 +6,7 @@
     "jsx": "react",
     "module": "esnext",
     "moduleResolution": "node",
+    "noImplicitThis": false,
     "sourceMap": true,
     "strict": true,
     "target": "es5",
