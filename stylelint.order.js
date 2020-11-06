@@ -20,7 +20,6 @@ const positioning = {
 
 const boxmodel = {
   properties: [
-    'box-sizing',
     'display',
     'flex-flow',
     'flex-direction',
@@ -39,6 +38,7 @@ const boxmodel = {
     'row-gap',
     'float',
     'clear',
+    'box-sizing',
     'width',
     'min-width',
     'max-width',
